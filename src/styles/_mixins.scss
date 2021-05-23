@@ -1,0 +1,49 @@
+@import "../styles/reset.scss";
+
+@mixin list_wrap{
+    width: 49.5%;
+    height: 100vh;
+    background: #f5f5f5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@mixin header_section {
+    width: 100%;
+    height: 6.6%; //6.6%;
+    border-bottom: 3px solid #f5f5f5;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+@mixin header {
+    width: 90%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20.27px;
+}
+
+@mixin list_container {
+    overflow: auto;
+    overflow-x: hidden;
+    height:93%;
+}
+
+@mixin button {
+    width: 80px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    color: #00abff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 4.5%;//8px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover{
+        background: #00aeff;
+        color: #fff;
+    }
+}
