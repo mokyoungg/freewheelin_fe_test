@@ -13,7 +13,7 @@
 - CSS Flexbox 사용
 - 전달받은 Figma 디자인 가이드 준수
  
-### locallhos http 통신
+### locallhost http 통신
 - public/data 폴더에 mock data 생성 및 활용
 
 ### 기능 구현
