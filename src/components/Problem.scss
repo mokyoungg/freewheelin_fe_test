@@ -15,6 +15,7 @@
         border-bottom: 3px solid #f5f5f5;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         .problem_type_section {
             font-size: 14px;
             line-height: 14px;
@@ -41,7 +42,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-right: 15px;
+            margin-right: 3%;
             .btn {
                 @include button
             }
@@ -71,6 +72,7 @@
         }
         .content_img_section{
             margin-top: 18px;
+            margin-left: 4.5%;//40px;
         }
     }
 }

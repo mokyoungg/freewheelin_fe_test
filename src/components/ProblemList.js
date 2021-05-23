@@ -23,7 +23,6 @@ const ProblemList = () => {
           >
             문제 데이터 불러오기
           </button>
-          ;
         </div>
       );
     } else {
